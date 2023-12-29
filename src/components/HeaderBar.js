@@ -5,7 +5,7 @@ import '../styles/navBar.css'
 function HeaderBar() {
   return (
     <div className="header-bar">
-      {/* Google News Logo */}
+      {/* News Logo */}
       <div className="Title">News</div>
       
       {/* Navigation Options */}
@@ -14,7 +14,7 @@ function HeaderBar() {
         <span>Tech</span>
         <span>Sports</span>
         <span>Finance </span>
-        {/* Add more navigation options as needed */}
+        {}
       </div>
     </div>
   );

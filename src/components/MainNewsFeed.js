@@ -1,8 +1,6 @@
-// MainNewsFeed.js
-
 import React from 'react';
 import NewsCard from './NewsCard';
-import '../styles/newsCard.css';  // Import the NewsCard styles
+import '../styles/newsCard.css';  
 
 function MainNewsFeed() {
   const newsData = [
@@ -30,7 +28,7 @@ function MainNewsFeed() {
       summary: 'This is a sample summary for the second news item.',
       imageUrl: 'https://example.com/image2.jpg',
     }
-    // Add more sample data as needed
+  
   ];
 
   return (
